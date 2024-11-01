@@ -27,7 +27,7 @@
 
    Descritption: The Logger class uses the Singleton pattern to ensure that the logging configuration is applied only once, avoiding duplicate logs.
    
-   **Strategy Patterns**: The Strategy pattern is used to enable switching between different calculation strategies (e.g., basic and statistical operations) without changing the core calculator logic.
+   **Strategy Patterns**: The Strategy pattern is used to enable switching between different calculation strategies (example basic and statistical operations) without changing the core calculator logic.
 
     Description: The Calculator class uses different strategy objects for various operations. This approach makes it easy to add new calculation strategies or modify existing ones.
    
