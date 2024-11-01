@@ -31,14 +31,21 @@
 
     Description: The Calculator class uses different strategy objects for various operations. This approach makes it easy to add new calculation strategies or modify existing ones.
    
-2. Environment Variables
+**2. Environment Variables**
+
+Environment variables are used to dynamically configure logging levels and output destinations, making it easier to control logging behavior without changing the code.
    
-3. Logging
-   
+**3. Logging**
+
    The project includes a comprehensive logging system to record detailed application operations, data manipulations, and error messages. This logging system differentiates log messages by severity (INFO, WARNING, ERROR) for effective monitoring and debugging.
    
    
-4. Error Handling: LBYL and EAFP
+**4. Error Handling: LBYL and EAFP**
    
-   In scenarios where input can be validated before performing an operation (example, checking if a divisor is zero), the LBYL approach is used to prevent errors.
+**LBYL (Look Before You Leap)**
 
+In scenarios where input can be validated before performing an operation (example checking if a divisor is zero), the LBYL approach is used to prevent errors.
+
+**EAFP (Easier to Ask for Forgiveness than Permission)**
+
+In scenarios where operations may fail unpredictably (example file Input/Output operations), the EAFP approach is used. This allows the code to handle exceptions after they occur.
