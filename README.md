@@ -3,6 +3,12 @@
 **Table of Contents**
 
 1. Design Patterns
+
+*Facade Pattern
+*Command Pattern
+*Factory Method Pattern
+*Singleton Pattern
+*Strategy Pattern
    
    Facade Pattern: The Facade pattern is used in calculator.py to simplify complex operations on history management, data retrieval, and calculations. It hides the complex interactions with the Pandas DataFrame, offering a 
    cleaner interface for other parts of the code.
